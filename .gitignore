@@ -1,0 +1,31 @@
+# here we add gitignore files here...
+envSophia/
+__pycache__
+
+# 📦 Block Python Virtual Environments (Keeps repo light)
+.venv-1/
+envSophia/
+Include/
+Lib/
+Scripts/
+pyvenv.cfg
+
+# ⚙️ Python Caching & Compiled Binaries
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 💾 Local Databases & State Logs
+sophia.db
+sophia.db-journal
+
+# 🔐 Credentials & Hidden Keys
+.env
+.env.*
+*.local
+
+# 🛠️ System/IDE Clutter
+.vscode/
+.DS_Store
+Thumbs.db
